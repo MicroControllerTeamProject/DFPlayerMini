@@ -63,7 +63,7 @@ void loop()
 		//myDFPlayer.play(2);  //Play next mp3 every 3 second.
 	}
 
-	if (millis() - timer2 > 360000) {
+	if (millis() - timer2 > 200000) {
 		timer2 = millis();
 		myDFPlayer.play(3);  //Play next mp3 every 3 second.
 		//myDFPlayer.play(2);  //Play next mp3 every 3 second.

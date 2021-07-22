@@ -1,0 +1,6 @@
+﻿Compiling 'DFPlayerMini' for 'Arduino/Genuino Uno'
+Program size: 5,464 bytes (used 17% of a 32,256 byte maximum) (1.07 secs)
+Minimum Memory Usage: 413 bytes (20% of a 2048 byte maximum)
+ 
+Uploading 'DFPlayerMini' to 'Arduino/Genuino Uno' using 'COM31'
+	The upload process has finished.
