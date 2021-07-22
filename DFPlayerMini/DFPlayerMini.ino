@@ -55,15 +55,16 @@ void loop()
 	//return;
 
 	static unsigned long timer1 = millis();
+
 	static unsigned long timer2 = millis();
 
-	if (millis() - timer1 >180000) {
+	if (millis() - timer1 >1800000) {
 		timer1 = millis();
 		myDFPlayer.play(2);  //Play next mp3 every 3 second.
 		//myDFPlayer.play(2);  //Play next mp3 every 3 second.
 	}
 
-	if (millis() - timer2 > 200000) {
+	if (millis() - timer2 > 2500000) {
 		timer2 = millis();
 		myDFPlayer.play(3);  //Play next mp3 every 3 second.
 		//myDFPlayer.play(2);  //Play next mp3 every 3 second.
