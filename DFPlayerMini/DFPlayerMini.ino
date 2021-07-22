@@ -45,7 +45,7 @@ void setup()
 	Serial.println(F("DFPlayer Mini online."));
 
 	myDFPlayer.volume(30);  //Set volume value. From 0 to 30
-	//myDFPlayer.play(1);  //Play the first mp3
+	myDFPlayer.play(1);  //Play the first mp3
 	
 }
 
@@ -57,15 +57,15 @@ void loop()
 	static unsigned long timer1 = millis();
 	static unsigned long timer2 = millis();
 
-	if (millis() - timer1 > 50000) {
+	if (millis() - timer1 >180000) {
 		timer1 = millis();
-		myDFPlayer.play(1);  //Play next mp3 every 3 second.
+		myDFPlayer.play(2);  //Play next mp3 every 3 second.
 		//myDFPlayer.play(2);  //Play next mp3 every 3 second.
 	}
 
-	if (millis() - timer2 > 75000) {
+	if (millis() - timer2 > 360000) {
 		timer2 = millis();
-		myDFPlayer.play(2);  //Play next mp3 every 3 second.
+		myDFPlayer.play(3);  //Play next mp3 every 3 second.
 		//myDFPlayer.play(2);  //Play next mp3 every 3 second.
 	}
 

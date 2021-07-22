@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="documents">
+      <UniqueIdentifier>{3e692865-7714-4d27-aa7b-11d2f4b5f605}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="DFPlayerMini.ino" />
@@ -23,5 +26,21 @@
     <ClInclude Include="__vm\.DFPlayerMini.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\documents\connections.PNG">
+      <Filter>documents</Filter>
+    </Image>
+    <Image Include="..\documents\Capture.PNG">
+      <Filter>documents</Filter>
+    </Image>
+    <Image Include="..\documents\Capture2.PNG">
+      <Filter>documents</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>documents</Filter>
+    </Text>
   </ItemGroup>
 </Project>

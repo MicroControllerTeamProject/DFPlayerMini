@@ -91,6 +91,9 @@
     <Image Include="..\documents\Capture2.PNG" />
     <Image Include="..\documents\connections.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
