@@ -1,0 +1,1 @@
+format fat32 sd card
